@@ -5,7 +5,7 @@ public class Practice43 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		LBB Butwal = new LBB("Nepal", "Butwal");
+		LBB1 Butwal = new LBB1("Nepal", "Butwal");
 		Butwal.loan();
 		Butwal.save();
 		Butwal.displaymessage();
@@ -30,7 +30,7 @@ class Worldbank {
 	}
 
 	public void displaymessage() {
-
+System.out.println("welcome to world Bank");
 	}
 }
 
@@ -51,12 +51,12 @@ class NRB extends Worldbank {
 	public void loan() {
 		System.out.println("loan from NRB Butwal");
 
-	}
+	}}
 
-	class LBB extends Worldbank {
+	class LBB1 extends Worldbank {
 		String branchname;
 
-		public LBB(String cnt, String bn) {
+		public LBB1(String cnt, String bn) {
 			super(cnt);
 			this.branchname = bn;
 		}
@@ -78,6 +78,6 @@ class NRB extends Worldbank {
 		
 		
 		
-	}
+	
 
 

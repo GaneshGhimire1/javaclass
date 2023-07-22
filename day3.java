@@ -23,8 +23,6 @@ public class day3 {
 			System.out.println(E*5);
 			System.out.println(E/3);
 			
-			//calling the function
-			int M = DivK(5 , 5);
 			System.out.println(E);
 			System.out.println(E+E);
 			System.out.println(E-5);
