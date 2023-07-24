@@ -1,42 +1,47 @@
 package javatutorial;
-interface AsianBank{
-public void Save(int x);
-public void loan(int y);
-	
-	
+interface WorldBank9{
+	public void save(int x);
+	public void loan(int y);
 	
 }
+
+	
+	
+	
+
 public class practice61 {
 
 	public static void main(String[] args) {
-		
-NBL2 nepal = new NBL2();
-nepal.loan(2);
-nepal.save(2);
-
-BBL Butwal = new BBL();
-Butwal.loan(1);
-Butwal.save(1);
-	}
-
-}
-class NBL2 implements AsianBank{
+	SBI10 nepal = new SBI10	();
+	nepal.loan(0);
+	nepal.save(0);
 	
-	public void save(int x) {
-		System.out.println("This is save method for NBL2");
+	PNB4 Butwal = new PNB4();
+	Butwal.loan(0);
+	Butwal.save(0);
+
+
+}
+}
+class SBI10 implements WorldBank9{
+	public void save  (int x) {
+	System.out.println("I am implement from save");
 	}
-	public void loan(int y ) {
-		System.out.println("This is loan method for NBL2");
+	public void loan (int y) {
+		System.out.println(" I am implement from loan");
+	}
+	
+}
+class PNB4 implements WorldBank9{
+	public void save (int x) {
+		System.out.println("i am  implement from save of Pnb");
+		
+	}
+	public void loan (int y) {
+		System.out.println("I am implement from loan of pnb");
+
+		
+		
+		
 	}
 }
-
-class BBL implements AsianBank{
-	public void save(int x) {
-		System.out.println("This is save method for BBL");
-	}
-	public void loan(int y ) {
-		System.out.println("This is loan method for BBL");
-	}
-}
-
-

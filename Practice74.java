@@ -6,11 +6,10 @@ public class Practice74 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+		Database db5 = Database.getInstance();
+		db5.getConnection();
 
-		    Database db5 = Database.getInstance();
-		    db5.getConnection();
-		    
+		   
 		    
 
 		  }

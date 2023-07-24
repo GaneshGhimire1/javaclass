@@ -1,9 +1,8 @@
 package javatutorial;
 
-public class Test6 {
+public class Practice75 {
 
 	public static void main(String[] args) {
-		// multiple level inheritence
 		SonAD subham = new SonAD("Ram", "Sharma", "Shyam","subham" );
 		System.out.println(subham.firstName);
 		System.out.println(subham.lastName);

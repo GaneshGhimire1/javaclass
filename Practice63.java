@@ -24,8 +24,8 @@ package javatutorial;
 	public class Practice63 {
 	
 	public static void main(String[] args) {
-		E Deer = new E();
-		Deer.WelcomeC();
+		E ramesh = new E();
+		ramesh.WelcomeC();
 
 	}
 

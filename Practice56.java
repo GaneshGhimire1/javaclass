@@ -21,6 +21,6 @@ abstract class Reptiles {
 
 class Snake extends Reptiles {
 	public void swim() {
-		System.out.println("shedoff old scales");
+		System.out.println("cobra can swim");
 	}
 }
