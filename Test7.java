@@ -8,8 +8,8 @@ public class Test7 {
 		Son atul = new Son("Ramesh","Sharma" "Ram", "atul");
 		System.out.println(atul.firstname);
 		System.out.println(atul.lastname);
-		System.out.println(atul.fname);
-		System.out.println(atul.Gname);
+		System.out.println(atul.Fname);
+		System.out.println(atul.Sname);
 		atul.displaySname();
 		atul.displayGname();
 		atul.displayFname();
@@ -46,7 +46,7 @@ class Father extends GrandFather1{
 
 class  Son extends GrandFather1{
 	String Sname;
-	public Son(String fn,String ln,String sn) {
+	public Son(String fn,String ln,String Ffn,String sn) {
 		super(fn,ln,Ffn);
 		this.Sname = sn;
 		

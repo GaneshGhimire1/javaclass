@@ -1,11 +1,11 @@
 package javatutorial;
 
-public class Test9 {
-//question 2 abstract
+public class Practice82 {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Monkey1 A  = new Monkey1();
+	 Monkey A  = new Monkey();
 		A.respire();
 		A.run();
 		
@@ -15,7 +15,7 @@ public class Test9 {
 
 
 
-abstract class Mammal2{
+abstract class Mammalia{
 abstract void run();
 
 public void respire() {
@@ -24,12 +24,14 @@ System.out.println("mammal respire");
 }
 	
 }
-class Monkey1 extends Mammal2{
+class Monkey extends Mammalia{
 
 	public void run() {
 		System.out.println("monkey can run");
 	}
 }
 
+		
+	
 
 

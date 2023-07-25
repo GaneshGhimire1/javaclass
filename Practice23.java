@@ -37,8 +37,4 @@ class Bird2{
 	public void sing() {
 		System.out.println("I am singing");
 	}
-	public void run() {
-		// TODO Auto-generated method stub
-		
-	}
 }
