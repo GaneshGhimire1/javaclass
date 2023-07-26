@@ -1,7 +1,7 @@
 package javatutorial;
 
 enum Size {
-	small, medium, large, extralarge
+	small, medium, large, extralarge;
 }
 
 class Order {
