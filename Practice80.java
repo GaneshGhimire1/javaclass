@@ -17,29 +17,29 @@ public class Practice80 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Reptile4 Lizard = new Reptile4();
-		Lizard.displayeat();
-		Lizard.displayfly();
-		Lizard.displayrun();
-		Lizard.displaywalk();
+		Penguin A = new Penguin();
+		A.displayeat();
+		A.displayfly();
+		A.displayrun();
+		A.displaywalk();
 	}
 
 }
-class Reptile4 implements Animal4,Bird4{
+class Penguin implements Animal4,Bird4{
 	public void displayfly() {
-		System.out.println("reptile can eat");
+		System.out.println("penguin can eat");
 	}
 	public void displaywalk () {
-		System.out.println("reptile can run");
+		System.out.println("penguin can run");
 		
 		
 	}
 	public void displayeat() {
-		System.out.println("reptile can fly");
+		System.out.println("penguin can fly");
 		
 	}
 	public void displayrun() {
-		System.out.println("reptile can walk");
+		System.out.println("penguin can walk");
 	}
 	
 		

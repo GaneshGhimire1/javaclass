@@ -7,11 +7,11 @@ enum Fruits1 {
 		case apple:
 		return "red apple";
 		case mango:
-			return "red apple";
+			return "delious mango";
 		case banana:
-			return "red apple";
+			return "green banana";
 		case orange:
-			return "red apple";
+			return "sour orange";
 			default: 
 				return null;
 			

@@ -1,7 +1,7 @@
 package javatutorial;
 
 public class Practice69 {
-
+	//Accesing the outer class fields into inner class
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 

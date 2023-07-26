@@ -1,5 +1,7 @@
 package javatutorial;
 
+
+
 // innerclass
 
 public class Practice72 {
@@ -7,26 +9,47 @@ public class Practice72 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+				University3 TU = new University3("Kathmandu ", "Technology");
+				University3 KU = new University3("pokhara", "ARTS");
 
-	}}
-class University{
-	String universityName;
-	String universityBranch; 
-	
+				University3.College A = TU.new College();
+				University3.College B = KU.new College();
 
+				A.faculty();
+				B.faculty();
+			}
 
-public University(String name,String branch) {
-	this.universityName = name;
-	this.universityBranch = branch;
-}
-public void welcome() {
-	System.out.println("welcome in university".concat(universityName));
-}
-	
-}
-class College{
-	String faculty;
+		}
 
-public void faculty() {
-	if(University.thisuniversityName equals ("technology"))
-}
+		class University3 {
+			String UniversityName;
+			String UniversityBranch;
+
+			public University3(String name, String branch) {
+				this.UniversityName = name;
+				this.UniversityBranch = branch;
+			}
+
+			public void welcome() {
+				System.out.println("welcome in university \t".concat(UniversityName));
+			}
+
+		// inner class
+
+			class College {
+				String faculty;
+
+				// Accesing the outer class fields into inner class
+
+				public void faculty() {
+					if (University3.this.UniversityBranch.equals("Technology")) {
+						this.faculty = "medical";
+						System.out.println(this.faculty);
+					} else if (University3.this.UniversityBranch.equals("ARTS")) {
+
+						this.faculty = "music";
+						System.out.println(this.faculty);
+					}
+				}
+			}
+		}
