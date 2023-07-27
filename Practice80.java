@@ -4,8 +4,8 @@ interface Animal4{
 	public void run();
 }
 interface Bird4 {
-	public void fly();
-	public void walk();
+	public void displayfly();
+	public void displaywalk();
 }
 
 
@@ -25,21 +25,32 @@ public class Practice80 {
 	}
 
 }
+
 class Penguin implements Animal4,Bird4{
 	public void displayfly() {
-		System.out.println("penguin can eat");
+		System.out.println("penguin can fly");
 	}
 	public void displaywalk () {
-		System.out.println("penguin can run");
+		System.out.println("penguin can walk");
 		
 		
 	}
 	public void displayeat() {
-		System.out.println("penguin can fly");
+		System.out.println("penguin can eat");
 		
 	}
 	public void displayrun() {
-		System.out.println("penguin can walk");
+		System.out.println("penguin can run");
+	}
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 		

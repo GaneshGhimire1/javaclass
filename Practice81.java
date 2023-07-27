@@ -8,11 +8,11 @@ public class Practice81 {
 	}
 
 }
-class Car {
+class Car4 {
 	String carName;
 	String carType;
 
-public Car(String name,String type) {
+public Car4(String name,String type) {
 	this.carName = name;
 	this.carType = type;
 	
@@ -24,7 +24,7 @@ public void greet() {
 class Engine{
 	String engineSize;
 	public void Enginesize() {
-		if(Car.this.carName equals("sedane"){
+		if(Car4.this.carName equals("sedane"){
 	}
 	
 }
