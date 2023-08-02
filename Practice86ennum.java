@@ -8,7 +8,7 @@ enum Size2 {
 		case small:
 		return("order small size pizza");
 		case large:
-			return("order medium size pizza");
+			return("order medium s(ize pizza");
 		case medium:
 			return("order large size pizza");
 		case extralarge:
