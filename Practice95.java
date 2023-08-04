@@ -92,18 +92,22 @@ public class Practice95 {
 		}
 
 		ArrayList<String> cities = new ArrayList<>();
-		cities.add("butwal");
+		cities.add("Butwal"); //0
 		cities.add("Kathmandu");
 		cities.add("palpa");
 		cities.add("gulmi");
-		cities.add("butwal");
+		cities.add("Butwal");
+		cities.add("Kathmandu");
+		cities.add("palpa");
+		cities.add("gulmi");
+		cities.add("Butwal");//8
 		
 		System.out.println(cities.size());
 		System.out.println(cities);
 
 		// [ butwal, kathmandu, palpa,gulmi,butwal ]
-		System.out.println(cities.indexOf("butwal"));
-		System.out.println(cities.lastIndexOf("butwal"));
+		System.out.println(cities.indexOf("Butwal"));
+		System.out.println(cities.lastIndexOf("Palpa"));
 
 		
 		
