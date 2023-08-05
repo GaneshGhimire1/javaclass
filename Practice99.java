@@ -2,6 +2,7 @@ package javatutorial;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 public class Practice99 {
 
 	public static void main(String[] args) {
@@ -27,9 +28,11 @@ public class Practice99 {
 	 employees.put("ID","105A");
 	 employees.put("age","33");
 	 
-	 for(String Prop:employees.values()) {
+	 // looping through keys 
+	 for(String Prop:employees.keySet()) {
 		 System.out.println(Prop);
 	 }
+	 //looping through values
 	 for(String Prop:employees.values()) {
 		 System.out.println(Prop);
 	 }
@@ -47,6 +50,18 @@ public class Practice99 {
 		 System.out.println(key);
 		 System.out.println(Furniture.get(key));
 	 }
-	 
+	// Iterator
+     Iterator<Entry<String, String> > new_Iterator
+         = Furniture.entrySet().iterator();
 
-}}
+     // Iterating every set of entry in the HashMap
+     while (new_Iterator.hasNext()) {
+         Map.Entry<String, String> new_Map
+             = (Map.Entry<String, String>)
+                   new_Iterator.next();
+
+         // Displaying HashMap
+         System.out.println(new_Map.getKey() + " = "
+                            + new_Map.getValue());
+
+}}}

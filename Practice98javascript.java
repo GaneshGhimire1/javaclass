@@ -1,8 +1,8 @@
-package javatutorial;
+//package javatutorial;
 
-public class Practice98javascript {
+//public class Practice98javascript {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 //		let names = ['ganesh','sharma',35,20]
