@@ -18,18 +18,19 @@ public class Practice102 {
 
 				// taking the blank string to list
 				List<String> name2 = Arrays.asList("ganesh","","ramesh","gopal","","ravi");
-				System.out.println(names.stream().filter(x -> x.isEmpty()).toList());
+				System.out.println(name2.stream().filter(x -> x.isEmpty()).toList());
 
 				//Only the string
 				List<String> name3 = Arrays.asList("ganesh","","ramesh","gopal","","ravi");
-				System.out.println(names.stream().filter(x -> !x.isEmpty()).toList());
+				System.out.println(name3.stream().filter(x -> !x.isEmpty()).toList());
 
-				// names starts with "S"
+				// names having "S"
 				List<String> name4 = Arrays.asList("ganesh","","ramesh","gopal","","ravi");
-				System.out.println(name4.stream().filter(x -> x.contains("i")).toList());
+				System.out.println(name4.stream().filter(x -> x.contains("s")).toList());
 
 				// string greater then 4
-				System.out.println(name4.stream().filter(x -> x.length() > 4).toList());
+				List<String>names5 = Arrays.asList("ganesh","","ramesh","gopal","","ravi");
+				System.out.println(names5.stream().filter(x -> x.length() > 4).toList());
 
 
 				// Working with every element of string 
@@ -52,9 +53,12 @@ public class Practice102 {
 				System.out.println(numbers.stream().map(x -> x * 2).toList());
 
 				List<Integer> salary = Arrays.asList(5000,6000,7000,8000,9000);
-				System.out.println(numbers.stream().map(x -> x * 2).toList());
-
+				
 				System.out.println(salary.stream().map(x -> x + x * 0.20).toList());
+				
+				List<Integer>salary1 = Arrays.asList(2000,4000, 5000);
+				System.out.println(salary1.stream().map(x -> x + x * 0.15  ).toList());
+				
 	}
 
 }

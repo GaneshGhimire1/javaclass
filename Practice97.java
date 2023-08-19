@@ -8,7 +8,7 @@ public class Practice97 {
 	// HashMap 
 	
 	public static void main(String[] args) {
-
+		// add
 		HashMap<String, Integer> students = new HashMap<>();
 		students.put("ganesh", 35);
 		students.put("Roshan", 30);
@@ -16,7 +16,9 @@ public class Practice97 {
 		students.put("Raj", 34);
 		System.out.println(students);
 
-		// Accessing the value from HashMap()
+		
+		//retrive
+		// Accessing the value from HashMap() 
 		int a = students.get("ganesh");
 		System.out.println(a);
 

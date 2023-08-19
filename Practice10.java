@@ -45,8 +45,10 @@ public class Practice10 {
 		}
 		
 			}
-		}
 		
+		
+		
+			}
 		
 
 		

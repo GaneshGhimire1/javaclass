@@ -13,8 +13,8 @@ public class Practice100 {
 				Employee2[] employees = {
 
 						new Employee2(1, "ganesh sharma", 100), 
-						new Employee2(1, "ram sharma", 1000),
-						new Employee2(1, "Ravi shrestha", 10000)
+						new Employee2(2, "ram sharma", 1000),
+						new Employee2(3, "Ravi shrestha", 10000)
 
 				};
 

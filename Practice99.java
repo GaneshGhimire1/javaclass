@@ -21,6 +21,21 @@ public class Practice99 {
 	System.out.println(entry.getKey() + entry.getValue());
 		
 		}
+		
+		// Iterator
+	     Iterator<Entry<String, String> > new_Iterator1
+	         = Fruits.entrySet().iterator();
+
+	     // Iterating every set of entry in the HashMap
+	     while (new_Iterator1.hasNext()) {
+	         Map.Entry<String, String> new_Map
+	             = (Map.Entry<String, String>)
+	                   new_Iterator1.next();
+
+	         // Displaying HashMap
+	         System.out.println(new_Map.getKey() + " = "
+	                 + new_Map.getValue());
+	     }
 	// Program 2
 	 Map<String,String> employees = new HashMap<String,String>();
 	 employees.put("firstName","ganesh");
@@ -36,6 +51,25 @@ public class Practice99 {
 	 for(String Prop:employees.values()) {
 		 System.out.println(Prop);
 	 }
+	// Iterator
+     Iterator<Entry<String, String> > new_Iterator2
+         = employees.entrySet().iterator();
+
+     // Iterating every set of entry in the HashMap
+     while (new_Iterator2.hasNext()) {
+         Map.Entry<String, String> new_Map1
+             = (Map.Entry<String, String>)
+                   new_Iterator2.next();
+
+         // Displaying HashMap
+         System.out.println(new_Map1.getKey() + " = "
+                 + new_Map1.getValue());
+
+	 
+	 
+	 
+	 
+	 
 	 
 	 // Program 3 
 	 Map<String,String> Furniture = new HashMap<String,String>();
@@ -62,6 +96,6 @@ public class Practice99 {
 
          // Displaying HashMap
          System.out.println(new_Map.getKey() + " = "
-                            + new_Map.getValue());
+                 + new_Map.getValue());
 
-}}}
+}}}}
