@@ -8,7 +8,7 @@ System.out.println("Define a array with values ");
 int[]marks = {5,10,15,20};
 
 try {
-	System.out.println(marks[2]);
+	System.out.println(marks[1]);
 	System.out.println(marks[5]);
 	System.out.println(4/0);
 	

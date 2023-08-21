@@ -1,7 +1,9 @@
 package javatutorial;
 
 public class Practice78 {
-
+	
+// singleton
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Database7 db6 = Database7.getinstance();

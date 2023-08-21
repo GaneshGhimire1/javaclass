@@ -3,7 +3,9 @@ package javatutorial;
 import java.util.ArrayList;
 
 public class Practice94collection {
-
+	
+// collection
+	
 	public static void main(String[] args) {
 
 		Person5 ganesh = new Person5("ganesh", "sharma");

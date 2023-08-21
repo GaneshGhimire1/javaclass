@@ -4,7 +4,8 @@ public class Practice71 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+// inner class
+		
 		Car audi = new Car("q4","sedane");
 		Car Thar = new Car("XU700","SUV");
 
